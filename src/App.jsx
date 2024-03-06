@@ -1,8 +1,8 @@
-import Statehook from "./hooks/Statehook";
+import ReducerHook from "./hooks/ReducerHook";
 function App() {
   return (
     <div>
-      <Statehook />
+      <ReducerHook />
     </div>
   );
 }
