@@ -1,11 +1,12 @@
-import ContextHook from "./hooks/ContextHook";
+import CallbackHook from "./hooks/Callback/CallbackHook";
+import ContextHook from "./hooks/ContextHook/ContextHook";
 import EffectHook from "./hooks/EffectHook";
 import MemoHook from "./hooks/MemoHook";
 import ReducerHook from "./hooks/ReducerHook";
 function App() {
   return (
     <div>
-      <MemoHook />
+      <CallbackHook />
     </div>
   );
 }
