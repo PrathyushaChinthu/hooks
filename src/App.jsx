@@ -1,8 +1,9 @@
+import EffectHook from "./hooks/EffectHook";
 import ReducerHook from "./hooks/ReducerHook";
 function App() {
   return (
     <div>
-      <ReducerHook />
+      <EffectHook />
     </div>
   );
 }
